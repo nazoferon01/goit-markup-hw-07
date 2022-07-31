@@ -1,22 +1,22 @@
-/*Секція чим ми займаємося*/
-.service-title {
+.service__title {
   color: var(--txt-color);
   margin-bottom: 50px;
 }
 
-.service-list {
+.service__list {
   display: flex;
+
 }
 
-.service-item+.service-item {
+.service__item+.service__item {
   margin-left: 30px;
 }
 
-.service-card {
+.service__card {
   position: relative;
 }
 
-.position-servise-text {
+.servise__text-position {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -31,7 +31,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.servise-text {
+.servise__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

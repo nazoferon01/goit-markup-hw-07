@@ -1,4 +1,4 @@
-/*Секція наші проекти*/
+/* Секция Наши проекты */
 .port-list {
     display: flex;
     flex-wrap: wrap;
@@ -41,6 +41,7 @@
     margin-top: 4px;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: var(--primary-letter-spacing);
     color: var(--general-color);
 }
 
@@ -75,6 +76,7 @@
     background-color: var(--backgraund--hover-port);
     font-size: 18px;
     line-height: 1.56;
+    letter-spacing: var(--primary-letter-spacing);
     color: var(--additional--color);
     opacity: 0;
 }

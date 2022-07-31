@@ -22,7 +22,7 @@
     min-height: 120px;
     justify-content: center;
     align-items: center;
-    background-color: var(--backgraund--add-color);
+    background-color: #f5f4fa;
     margin-bottom: 30px;
 }
 
@@ -30,6 +30,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: var(--primary-letter-spacing);
     text-transform: uppercase;
     color: var(--txt-color);
     margin-bottom: 10px;
